@@ -1,0 +1,2 @@
+Output File                                  Name                  Type     FSH File          Lines
+StructureDefinition-MedplumTestPatient.json  Medplum_Test_Patient  Profile  patient-test.fsh  1 - 7

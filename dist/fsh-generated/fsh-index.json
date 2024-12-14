@@ -1,0 +1,10 @@
+[
+  {
+    "outputFile": "StructureDefinition-MedplumTestPatient.json",
+    "fshName": "Medplum_Test_Patient",
+    "fshType": "Profile",
+    "fshFile": "patient-test.fsh",
+    "startLine": 1,
+    "endLine": 7
+  }
+]

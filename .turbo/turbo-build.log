@@ -1,0 +1,64 @@
+
+> medplum-fsh-profiles@3.2.25 build
+> npm run clean && npm run build:profiles
+
+
+> medplum-fsh-profiles@3.2.25 clean
+> rimraf dist
+
+
+> medplum-fsh-profiles@3.2.25 build:profiles
+> sushi build src/profiles -o dist -s
+
+info  Running SUSHI v3.12.1 (implements FHIR Shorthand specification v3.0.0)
+info  Arguments:
+info    --snapshot
+info    --out /home/runner/work/medplum/medplum/examples/medplum-fsh-profiles/dist
+info    /home/runner/work/medplum/medplum/examples/medplum-fsh-profiles/src/profiles
+npm warn Ignoring workspaces for specified package(s)
+info  Using configuration file: /home/runner/work/medplum/medplum/examples/medplum-fsh-profiles/src/profiles/sushi-config.yaml
+info  Importing FSH text...
+info  Preprocessed 1 documents with 0 aliases.
+info  Imported 1 definitions and 0 instances.
+info  Checking /home/runner/.fhir/packages for hl7.fhir.uv.tools#current...
+info  Did not find hl7.fhir.uv.tools#current in /home/runner/.fhir/packages.
+info  Downloading hl7.fhir.uv.tools#current... https://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/package.tgz
+info  Downloaded hl7.fhir.uv.tools#current
+info  Loaded package hl7.fhir.uv.tools#current
+info  Checking /home/runner/.fhir/packages for hl7.terminology.r4#6.1.0...
+info  Did not find hl7.terminology.r4#6.1.0 in /home/runner/.fhir/packages.
+info  Downloading hl7.terminology.r4#6.1.0... https://packages.fhir.org/hl7.terminology.r4/6.1.0
+info  Downloaded hl7.terminology.r4#6.1.0
+info  Loaded package hl7.terminology.r4#6.1.0
+info  Checking /home/runner/.fhir/packages for hl7.fhir.uv.extensions.r4#5.1.0...
+info  Did not find hl7.fhir.uv.extensions.r4#5.1.0 in /home/runner/.fhir/packages.
+info  Downloading hl7.fhir.uv.extensions.r4#5.1.0... https://packages.fhir.org/hl7.fhir.uv.extensions.r4/5.1.0
+info  Downloaded hl7.fhir.uv.extensions.r4#5.1.0
+info  Loaded package hl7.fhir.uv.extensions.r4#5.1.0
+info  Checking /home/runner/.fhir/packages for hl7.fhir.r4.core#4.0.1...
+info  Did not find hl7.fhir.r4.core#4.0.1 in /home/runner/.fhir/packages.
+info  Downloading hl7.fhir.r4.core#4.0.1... https://packages.fhir.org/hl7.fhir.r4.core/4.0.1
+info  Downloaded hl7.fhir.r4.core#4.0.1
+info  Loaded package hl7.fhir.r4.core#4.0.1
+info  Converting FSH to FHIR resources...
+info  Converted 1 FHIR StructureDefinitions.
+info  Exporting FHIR resources as JSON...
+info  Exported 1 FHIR resources as JSON.
+info  Exporting FSH definitions only. No IG related content will be exported.
+
+========================= SUSHI RESULTS ===========================
+|  -------------------------------------------------------------  |
+| |    Profiles   |  Extensions  |   Logicals   |   Resources   | |
+| |-------------------------------------------------------------| |
+| |       1       |      0       |      0       |       0       | |
+|  -------------------------------------------------------------  |
+|  -------------------------------------------------------------  |
+| |      ValueSets     |    CodeSystems    |     Instances      | |
+| |-------------------------------------------------------------| |
+| |         0          |         0         |         0          | |
+|  -------------------------------------------------------------  |
+|                                                                 |
+===================================================================
+| Ex-clam-ation point!                   0 Errors      0 Warnings |
+===================================================================
+
