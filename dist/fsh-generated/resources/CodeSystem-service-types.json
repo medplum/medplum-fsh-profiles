@@ -1,0 +1,33 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "ServiceTypes",
+  "id": "service-types",
+  "title": "Service Types Code System",
+  "description": "Codes for different types of healthcare services",
+  "url": "https://medplum.com/profiles/example-fsh-profiles/CodeSystem/service-types",
+  "concept": [
+    {
+      "code": "task-mgmt",
+      "display": "Task Management",
+      "definition": "Services related to clinical task tracking and management"
+    },
+    {
+      "code": "order-mgmt",
+      "display": "Order Management",
+      "definition": "Services handling clinical orders and signatures"
+    },
+    {
+      "code": "scheduling",
+      "display": "Scheduling Services",
+      "definition": "Services related to appointment and visit scheduling"
+    },
+    {
+      "code": "referral-mgmt",
+      "display": "Referral Management",
+      "definition": "Services handling patient referrals and coordination"
+    }
+  ],
+  "count": 4
+}

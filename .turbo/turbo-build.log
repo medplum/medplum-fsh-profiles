@@ -1,16 +1,16 @@
 
-> medplum-fsh-profiles@3.2.27 build
+> medplum-fsh-profiles@3.2.28 build
 > npm run clean && npm run build:profiles
 
 
-> medplum-fsh-profiles@3.2.27 clean
+> medplum-fsh-profiles@3.2.28 clean
 > rimraf dist
 
 
-> medplum-fsh-profiles@3.2.27 build:profiles
+> medplum-fsh-profiles@3.2.28 build:profiles
 > sushi build src/profiles -o dist -s
 
-info  Running SUSHI v3.13.1 (implements FHIR Shorthand specification v3.0.0)
+info  Running SUSHI v3.14.0 (implements FHIR Shorthand specification v3.0.0)
 info  Arguments:
 info    --snapshot
 info    --out /home/runner/work/medplum/medplum/examples/medplum-fsh-profiles/dist
@@ -18,18 +18,19 @@ info    /home/runner/work/medplum/medplum/examples/medplum-fsh-profiles/src/prof
 npm warn Ignoring workspaces for specified package(s)
 info  Using configuration file: /home/runner/work/medplum/medplum/examples/medplum-fsh-profiles/src/profiles/sushi-config.yaml
 info  Importing FSH text...
-info  Preprocessed 1 documents with 0 aliases.
-info  Imported 1 definitions and 0 instances.
+info  Preprocessed 2 documents with 0 aliases.
+info  Imported 6 definitions and 0 instances.
 info  Loaded virtual package sushi-r5forR4#1.0.0 with 7 resources
-info  Attempting to download hl7.fhir.uv.tools#current from https://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/package.tgz
-info  Downloaded hl7.fhir.uv.tools#current
-info  Cached hl7.fhir.uv.tools#current to /home/runner/.fhir/packages/hl7.fhir.uv.tools#current
-info  Loaded hl7.fhir.uv.tools#current with 76 resources
-info  Resolved hl7.terminology.r4#latest to concrete version 6.1.0
-info  Attempting to download hl7.terminology.r4#6.1.0 from https://packages.fhir.org/hl7.terminology.r4/6.1.0
-info  Downloaded hl7.terminology.r4#6.1.0
-info  Cached hl7.terminology.r4#6.1.0 to /home/runner/.fhir/packages/hl7.terminology.r4#6.1.0
-info  Loaded hl7.terminology.r4#6.1.0 with 4315 resources
+info  Resolved hl7.fhir.uv.tools.r4#latest to concrete version 0.3.0
+info  Attempting to download hl7.fhir.uv.tools.r4#0.3.0 from https://packages.fhir.org/hl7.fhir.uv.tools.r4/0.3.0
+info  Downloaded hl7.fhir.uv.tools.r4#0.3.0
+info  Cached hl7.fhir.uv.tools.r4#0.3.0 to /home/runner/.fhir/packages/hl7.fhir.uv.tools.r4#0.3.0
+info  Loaded hl7.fhir.uv.tools.r4#0.3.0 with 75 resources
+info  Resolved hl7.terminology.r4#latest to concrete version 6.2.0
+info  Attempting to download hl7.terminology.r4#6.2.0 from https://packages.fhir.org/hl7.terminology.r4/6.2.0
+info  Downloaded hl7.terminology.r4#6.2.0
+info  Cached hl7.terminology.r4#6.2.0 to /home/runner/.fhir/packages/hl7.terminology.r4#6.2.0
+info  Loaded hl7.terminology.r4#6.2.0 with 4323 resources
 info  Resolved hl7.fhir.uv.extensions.r4#latest to concrete version 5.1.0
 info  Attempting to download hl7.fhir.uv.extensions.r4#5.1.0 from https://packages.fhir.org/hl7.fhir.uv.extensions.r4/5.1.0
 info  Downloaded hl7.fhir.uv.extensions.r4#5.1.0
@@ -41,28 +42,26 @@ info  Cached hl7.fhir.r4.core#4.0.1 to /home/runner/.fhir/packages/hl7.fhir.r4.c
 info  Loaded hl7.fhir.r4.core#4.0.1 with 4581 resources
 info  Loaded virtual package sushi-local#LOCAL with 0 resources
 info  Converting FSH to FHIR resources...
-info  Converted 1 FHIR StructureDefinitions.
+info  Converted 2 FHIR StructureDefinitions.
+info  Converted 2 FHIR CodeSystems.
+info  Converted 2 FHIR ValueSets.
 info  Exporting FHIR resources as JSON...
-info  Exported 1 FHIR resources as JSON.
+info  Exported 6 FHIR resources as JSON.
 info  Exporting FSH definitions only. No IG related content will be exported.
 
 ========================= SUSHI RESULTS ===========================
 |  -------------------------------------------------------------  |
 | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |
 | |-------------------------------------------------------------| |
-| |       1       |      0       |      0       |       0       | |
+| |       2       |      0       |      0       |       0       | |
 |  -------------------------------------------------------------  |
 |  -------------------------------------------------------------  |
 | |      ValueSets     |    CodeSystems    |     Instances      | |
 | |-------------------------------------------------------------| |
-| |         0          |         0         |         0          | |
+| |         2          |         2         |         0          | |
 |  -------------------------------------------------------------  |
 |                                                                 |
 ===================================================================
-| O-fish-ally error free!                0 Errors      0 Warnings |
-===================================================================
-|    You are using SUSHI version 3.13.1, but the latest stable    |
-| release is version 3.14.0. To install the latest release, run:  |
-|                    npm install -g fsh-sushi                     |
+| That went swimmingly!                  0 Errors      0 Warnings |
 ===================================================================
 

@@ -1,0 +1,16 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ServiceTypesVS",
+  "id": "service-types-vs",
+  "title": "Service Types Value Set",
+  "description": "Value set for service types",
+  "url": "https://medplum.com/profiles/example-fsh-profiles/ValueSet/service-types-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "https://medplum.com/profiles/example-fsh-profiles/CodeSystem/service-types"
+      }
+    ]
+  }
+}

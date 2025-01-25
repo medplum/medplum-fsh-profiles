@@ -1,2 +1,7 @@
-Output File                                  Name                  Type     FSH File          Lines
-StructureDefinition-MedplumTestPatient.json  Medplum_Test_Patient  Profile  patient-test.fsh  1 - 7
+Output File                                                     Name                                Type        FSH File                 Lines
+CodeSystem-service-categories.json                              ServiceCategories                   CodeSystem  health-care-service.fsh  10 - 19
+CodeSystem-service-types.json                                   ServiceTypes                        CodeSystem  health-care-service.fsh  1 - 8
+StructureDefinition-MedplumTestPatient.json                     Medplum_Test_Patient                Profile     patient-test.fsh         1 - 7
+StructureDefinition-service-management-healthcare-service.json  ServiceManagementHealthcareService  Profile     health-care-service.fsh  33 - 51
+ValueSet-service-categories-vs.json                             ServiceCategoriesVS                 ValueSet    health-care-service.fsh  27 - 31
+ValueSet-service-types-vs.json                                  ServiceTypesVS                      ValueSet    health-care-service.fsh  21 - 25

@@ -1,10 +1,50 @@
 [
   {
+    "outputFile": "CodeSystem-service-categories.json",
+    "fshName": "ServiceCategories",
+    "fshType": "CodeSystem",
+    "fshFile": "health-care-service.fsh",
+    "startLine": 10,
+    "endLine": 19
+  },
+  {
+    "outputFile": "CodeSystem-service-types.json",
+    "fshName": "ServiceTypes",
+    "fshType": "CodeSystem",
+    "fshFile": "health-care-service.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
     "outputFile": "StructureDefinition-MedplumTestPatient.json",
     "fshName": "Medplum_Test_Patient",
     "fshType": "Profile",
     "fshFile": "patient-test.fsh",
     "startLine": 1,
     "endLine": 7
+  },
+  {
+    "outputFile": "StructureDefinition-service-management-healthcare-service.json",
+    "fshName": "ServiceManagementHealthcareService",
+    "fshType": "Profile",
+    "fshFile": "health-care-service.fsh",
+    "startLine": 33,
+    "endLine": 51
+  },
+  {
+    "outputFile": "ValueSet-service-categories-vs.json",
+    "fshName": "ServiceCategoriesVS",
+    "fshType": "ValueSet",
+    "fshFile": "health-care-service.fsh",
+    "startLine": 27,
+    "endLine": 31
+  },
+  {
+    "outputFile": "ValueSet-service-types-vs.json",
+    "fshName": "ServiceTypesVS",
+    "fshType": "ValueSet",
+    "fshFile": "health-care-service.fsh",
+    "startLine": 21,
+    "endLine": 25
   }
 ]

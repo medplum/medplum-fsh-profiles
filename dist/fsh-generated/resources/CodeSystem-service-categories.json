@@ -1,0 +1,43 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "ServiceCategories",
+  "id": "service-categories",
+  "title": "Service Categories Code System",
+  "description": "Codes for different categories of healthcare services",
+  "url": "https://medplum.com/profiles/example-fsh-profiles/CodeSystem/service-categories",
+  "concept": [
+    {
+      "code": "lab-orders",
+      "display": "Laboratory Orders",
+      "definition": "Management of laboratory test orders"
+    },
+    {
+      "code": "imaging-orders",
+      "display": "Imaging Orders",
+      "definition": "Management of imaging and radiology orders"
+    },
+    {
+      "code": "medication-orders",
+      "display": "Medication Orders",
+      "definition": "Management of medication and prescription orders"
+    },
+    {
+      "code": "visit-scheduling",
+      "display": "Visit Scheduling",
+      "definition": "Scheduling of patient visits and appointments"
+    },
+    {
+      "code": "clinical-tasks",
+      "display": "Clinical Tasks",
+      "definition": "General clinical task management"
+    },
+    {
+      "code": "admin-tasks",
+      "display": "Administrative Tasks",
+      "definition": "Administrative task management"
+    }
+  ],
+  "count": 6
+}
