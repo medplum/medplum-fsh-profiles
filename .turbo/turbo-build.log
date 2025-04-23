@@ -1,13 +1,13 @@
 
-> medplum-fsh-profiles@4.1.0 build
+> medplum-fsh-profiles@4.1.1 build
 > npm run clean && npm run build:profiles
 
 
-> medplum-fsh-profiles@4.1.0 clean
+> medplum-fsh-profiles@4.1.1 clean
 > rimraf dist
 
 
-> medplum-fsh-profiles@4.1.0 build:profiles
+> medplum-fsh-profiles@4.1.1 build:profiles
 > sushi build src/profiles -o dist -s
 
 info  Running SUSHI v3.15.0 (implements FHIR Shorthand specification v3.0.0)
@@ -21,11 +21,11 @@ info  Importing FSH text...
 info  Preprocessed 1 documents with 0 aliases.
 info  Imported 1 definitions and 0 instances.
 info  Loaded virtual package sushi-r5forR4#1.0.0 with 7 resources
-info  Resolved hl7.fhir.uv.tools.r4#latest to concrete version 0.4.1
-info  Attempting to download hl7.fhir.uv.tools.r4#0.4.1 from https://packages.fhir.org/hl7.fhir.uv.tools.r4/0.4.1
-info  Downloaded hl7.fhir.uv.tools.r4#0.4.1
-info  Cached hl7.fhir.uv.tools.r4#0.4.1 to /home/runner/.fhir/packages/hl7.fhir.uv.tools.r4#0.4.1
-info  Loaded hl7.fhir.uv.tools.r4#0.4.1 with 86 resources
+info  Resolved hl7.fhir.uv.tools.r4#latest to concrete version 0.5.0
+info  Attempting to download hl7.fhir.uv.tools.r4#0.5.0 from https://packages.fhir.org/hl7.fhir.uv.tools.r4/0.5.0
+info  Downloaded hl7.fhir.uv.tools.r4#0.5.0
+info  Cached hl7.fhir.uv.tools.r4#0.5.0 to /home/runner/.fhir/packages/hl7.fhir.uv.tools.r4#0.5.0
+info  Loaded hl7.fhir.uv.tools.r4#0.5.0 with 88 resources
 info  Resolved hl7.terminology.r4#latest to concrete version 6.2.0
 info  Attempting to download hl7.terminology.r4#6.2.0 from https://packages.fhir.org/hl7.terminology.r4/6.2.0
 info  Downloaded hl7.terminology.r4#6.2.0
@@ -60,6 +60,6 @@ info  Exporting FSH definitions only. No IG related content will be exported.
 |  -------------------------------------------------------------  |
 |                                                                 |
 ===================================================================
-| You've earned a seal of approval.      0 Errors      0 Warnings |
+| FSHing for compliments? Super job!     0 Errors      0 Warnings |
 ===================================================================
 
