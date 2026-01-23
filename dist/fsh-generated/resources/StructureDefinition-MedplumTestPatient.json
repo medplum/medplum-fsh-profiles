@@ -992,12 +992,6 @@
       },
       {
         "id": "Patient.contact",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name",
-            "valueString": "Contact"
-          }
-        ],
         "path": "Patient.contact",
         "short": "A contact party (e.g. guardian, partner, friend) for the patient",
         "definition": "A contact party (e.g. guardian, partner, friend) for the patient.",
