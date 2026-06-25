@@ -1,16 +1,16 @@
 
-> medplum-fsh-profiles@5.1.21 build
+> medplum-fsh-profiles@5.1.22 build
 > npm run clean && npm run build:profiles
 
 
-> medplum-fsh-profiles@5.1.21 clean
+> medplum-fsh-profiles@5.1.22 clean
 > rimraf dist
 
 
-> medplum-fsh-profiles@5.1.21 build:profiles
+> medplum-fsh-profiles@5.1.22 build:profiles
 > sushi build src/profiles -o dist -s
 
-info  Running SUSHI v3.19.0 (implements FHIR Shorthand specification v3.0.0)
+info  Running SUSHI v3.20.0 (implements FHIR Shorthand specification v3.0.0)
 info  Arguments:
 info    --snapshot
 info    --out /home/runner/work/medplum/medplum/examples/medplum-fsh-profiles/dist
@@ -60,10 +60,6 @@ info  Exporting FSH definitions only. No IG related content will be exported.
 |  -------------------------------------------------------------  |
 |                                                                 |
 ===================================================================
-| Ac-clam-ations!                        0 Errors      0 Warnings |
-===================================================================
-|    You are using SUSHI version 3.19.0, but the latest stable    |
-| release is version 3.20.0. To install the latest release, run:  |
-|                    npm install -g fsh-sushi                     |
+| That was a big fish to fry!            0 Errors      0 Warnings |
 ===================================================================
 
