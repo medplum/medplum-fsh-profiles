@@ -1,13 +1,13 @@
 
-> medplum-fsh-profiles@5.1.23 build
+> medplum-fsh-profiles@5.1.24 build
 > npm run clean && npm run build:profiles
 
 
-> medplum-fsh-profiles@5.1.23 clean
+> medplum-fsh-profiles@5.1.24 clean
 > rimraf dist
 
 
-> medplum-fsh-profiles@5.1.23 build:profiles
+> medplum-fsh-profiles@5.1.24 build:profiles
 > sushi build src/profiles -o dist -s
 
 info  Running SUSHI v3.20.0 (implements FHIR Shorthand specification v3.0.0)
@@ -60,6 +60,6 @@ info  Exporting FSH definitions only. No IG related content will be exported.
 |  -------------------------------------------------------------  |
 |                                                                 |
 ===================================================================
-| It doesn't get any betta than this!    0 Errors      0 Warnings |
+| Well hooked and landed!                0 Errors      0 Warnings |
 ===================================================================
 
